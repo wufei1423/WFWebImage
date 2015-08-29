@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		EF028ED81B9141AF00EF74A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028ED71B9141AF00EF74A9 /* main.m */; };
 		EF028EDB1B9141AF00EF74A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */; };
-		EF028EDE1B9141AF00EF74A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EDD1B9141AF00EF74A9 /* ViewController.m */; };
 		EF028EE11B9141AF00EF74A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF028EDF1B9141AF00EF74A9 /* Main.storyboard */; };
 		EF028EE31B9141AF00EF74A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF028EE21B9141AF00EF74A9 /* Images.xcassets */; };
 		EF028EE61B9141AF00EF74A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF028EE41B9141AF00EF74A9 /* LaunchScreen.xib */; };
 		EF028EF21B9141AF00EF74A9 /* WFWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EF11B9141AF00EF74A9 /* WFWebImageTests.m */; };
+		EF028EFE1B91423D00EF74A9 /* UIImageView+WFWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EFD1B91423D00EF74A9 /* UIImageView+WFWebImage.m */; };
+		EF028F011B91426C00EF74A9 /* WFWebImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028F001B91426C00EF74A9 /* WFWebImageCacheManager.m */; };
+		EF028F041B91428500EF74A9 /* WFWebImageRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028F031B91428500EF74A9 /* WFWebImageRequestManager.m */; };
+		EF028F071B9147AA00EF74A9 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028F061B9147AA00EF74A9 /* NSString+Hash.m */; };
+		EF028F0A1B9162C800EF74A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028F091B9162C800EF74A9 /* ViewController.m */; };
+		EF028F101B9167B400EF74A9 /* WFImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028F0F1B9167B400EF74A9 /* WFImageViewCell.m */; };
+		EF028F141B91694900EF74A9 /* mao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF028F131B91694900EF74A9 /* mao.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,25 @@
 		EF028ED71B9141AF00EF74A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF028ED91B9141AF00EF74A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF028EDC1B9141AF00EF74A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF028EDD1B9141AF00EF74A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF028EE01B9141AF00EF74A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF028EE21B9141AF00EF74A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF028EE51B9141AF00EF74A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF028EEB1B9141AF00EF74A9 /* WFWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF028EF01B9141AF00EF74A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF028EF11B9141AF00EF74A9 /* WFWebImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFWebImageTests.m; sourceTree = "<group>"; };
+		EF028EFC1B91423D00EF74A9 /* UIImageView+WFWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WFWebImage.h"; sourceTree = "<group>"; };
+		EF028EFD1B91423D00EF74A9 /* UIImageView+WFWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WFWebImage.m"; sourceTree = "<group>"; };
+		EF028EFF1B91426C00EF74A9 /* WFWebImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFWebImageCacheManager.h; sourceTree = "<group>"; };
+		EF028F001B91426C00EF74A9 /* WFWebImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFWebImageCacheManager.m; sourceTree = "<group>"; };
+		EF028F021B91428500EF74A9 /* WFWebImageRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFWebImageRequestManager.h; sourceTree = "<group>"; };
+		EF028F031B91428500EF74A9 /* WFWebImageRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFWebImageRequestManager.m; sourceTree = "<group>"; };
+		EF028F051B9147AA00EF74A9 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		EF028F061B9147AA00EF74A9 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		EF028F081B9162C800EF74A9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF028F091B9162C800EF74A9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF028F0E1B9167B400EF74A9 /* WFImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImageViewCell.h; sourceTree = "<group>"; };
+		EF028F0F1B9167B400EF74A9 /* WFImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImageViewCell.m; sourceTree = "<group>"; };
+		EF028F131B91694900EF74A9 /* mao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mao.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +98,14 @@
 		EF028ED41B9141AF00EF74A9 /* WFWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				EF028EFB1B9141F400EF74A9 /* WFWebImage */,
+				EF028F131B91694900EF74A9 /* mao.jpeg */,
 				EF028ED91B9141AF00EF74A9 /* AppDelegate.h */,
 				EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */,
-				EF028EDC1B9141AF00EF74A9 /* ViewController.h */,
-				EF028EDD1B9141AF00EF74A9 /* ViewController.m */,
+				EF028F081B9162C800EF74A9 /* ViewController.h */,
+				EF028F091B9162C800EF74A9 /* ViewController.m */,
+				EF028F0E1B9167B400EF74A9 /* WFImageViewCell.h */,
+				EF028F0F1B9167B400EF74A9 /* WFImageViewCell.m */,
 				EF028EDF1B9141AF00EF74A9 /* Main.storyboard */,
 				EF028EE21B9141AF00EF74A9 /* Images.xcassets */,
 				EF028EE41B9141AF00EF74A9 /* LaunchScreen.xib */,
@@ -117,6 +138,21 @@
 				EF028EF01B9141AF00EF74A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF028EFB1B9141F400EF74A9 /* WFWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EF028EFC1B91423D00EF74A9 /* UIImageView+WFWebImage.h */,
+				EF028EFD1B91423D00EF74A9 /* UIImageView+WFWebImage.m */,
+				EF028EFF1B91426C00EF74A9 /* WFWebImageCacheManager.h */,
+				EF028F001B91426C00EF74A9 /* WFWebImageCacheManager.m */,
+				EF028F021B91428500EF74A9 /* WFWebImageRequestManager.h */,
+				EF028F031B91428500EF74A9 /* WFWebImageRequestManager.m */,
+				EF028F051B9147AA00EF74A9 /* NSString+Hash.h */,
+				EF028F061B9147AA00EF74A9 /* NSString+Hash.m */,
+			);
+			path = WFWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF028EE11B9141AF00EF74A9 /* Main.storyboard in Resources */,
+				EF028F141B91694900EF74A9 /* mao.jpeg in Resources */,
 				EF028EE61B9141AF00EF74A9 /* LaunchScreen.xib in Resources */,
 				EF028EE31B9141AF00EF74A9 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF028EDE1B9141AF00EF74A9 /* ViewController.m in Sources */,
+				EF028F0A1B9162C800EF74A9 /* ViewController.m in Sources */,
+				EF028F071B9147AA00EF74A9 /* NSString+Hash.m in Sources */,
+				EF028EFE1B91423D00EF74A9 /* UIImageView+WFWebImage.m in Sources */,
+				EF028F011B91426C00EF74A9 /* WFWebImageCacheManager.m in Sources */,
 				EF028EDB1B9141AF00EF74A9 /* AppDelegate.m in Sources */,
 				EF028ED81B9141AF00EF74A9 /* main.m in Sources */,
+				EF028F041B91428500EF74A9 /* WFWebImageRequestManager.m in Sources */,
+				EF028F101B9167B400EF74A9 /* WFImageViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				EF028EF71B9141AF00EF74A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF028EF81B9141AF00EF74A9 /* Build configuration list for PBXNativeTarget "WFWebImageTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				EF028EFA1B9141AF00EF74A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

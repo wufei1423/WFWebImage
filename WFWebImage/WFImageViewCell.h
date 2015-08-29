@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WFImageViewCell.h
 //  WFWebImage
 //
 //  Created by feiwu on 15/8/29.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface WFImageViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *webImageView;
 
 @end

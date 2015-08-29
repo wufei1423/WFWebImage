@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  WFImageViewCell.m
 //  WFWebImage
 //
 //  Created by feiwu on 15/8/29.
 //  Copyright (c) 2015年 feiwu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "WFImageViewCell.h"
 
-@interface ViewController : UITableViewController
+@implementation WFImageViewCell
 
 @end
