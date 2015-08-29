@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF028ED81B9141AF00EF74A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028ED71B9141AF00EF74A9 /* main.m */; };
+		EF028EDB1B9141AF00EF74A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */; };
+		EF028EDE1B9141AF00EF74A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EDD1B9141AF00EF74A9 /* ViewController.m */; };
+		EF028EE11B9141AF00EF74A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF028EDF1B9141AF00EF74A9 /* Main.storyboard */; };
+		EF028EE31B9141AF00EF74A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF028EE21B9141AF00EF74A9 /* Images.xcassets */; };
+		EF028EE61B9141AF00EF74A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF028EE41B9141AF00EF74A9 /* LaunchScreen.xib */; };
+		EF028EF21B9141AF00EF74A9 /* WFWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EF11B9141AF00EF74A9 /* WFWebImageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF028EEC1B9141AF00EF74A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF028ECA1B9141AF00EF74A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF028ED11B9141AF00EF74A9;
+			remoteInfo = WFWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF028ED21B9141AF00EF74A9 /* WFWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF028ED61B9141AF00EF74A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF028ED71B9141AF00EF74A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF028ED91B9141AF00EF74A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF028EDC1B9141AF00EF74A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF028EDD1B9141AF00EF74A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF028EE01B9141AF00EF74A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF028EE21B9141AF00EF74A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF028EE51B9141AF00EF74A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF028EEB1B9141AF00EF74A9 /* WFWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF028EF01B9141AF00EF74A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF028EF11B9141AF00EF74A9 /* WFWebImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFWebImageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF028ECF1B9141AF00EF74A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF028EE81B9141AF00EF74A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF028EC91B9141AF00EF74A9 = {
+			isa = PBXGroup;
+			children = (
+				EF028ED41B9141AF00EF74A9 /* WFWebImage */,
+				EF028EEE1B9141AF00EF74A9 /* WFWebImageTests */,
+				EF028ED31B9141AF00EF74A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF028ED31B9141AF00EF74A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF028ED21B9141AF00EF74A9 /* WFWebImage.app */,
+				EF028EEB1B9141AF00EF74A9 /* WFWebImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF028ED41B9141AF00EF74A9 /* WFWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EF028ED91B9141AF00EF74A9 /* AppDelegate.h */,
+				EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */,
+				EF028EDC1B9141AF00EF74A9 /* ViewController.h */,
+				EF028EDD1B9141AF00EF74A9 /* ViewController.m */,
+				EF028EDF1B9141AF00EF74A9 /* Main.storyboard */,
+				EF028EE21B9141AF00EF74A9 /* Images.xcassets */,
+				EF028EE41B9141AF00EF74A9 /* LaunchScreen.xib */,
+				EF028ED51B9141AF00EF74A9 /* Supporting Files */,
+			);
+			path = WFWebImage;
+			sourceTree = "<group>";
+		};
+		EF028ED51B9141AF00EF74A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF028ED61B9141AF00EF74A9 /* Info.plist */,
+				EF028ED71B9141AF00EF74A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF028EEE1B9141AF00EF74A9 /* WFWebImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF028EF11B9141AF00EF74A9 /* WFWebImageTests.m */,
+				EF028EEF1B9141AF00EF74A9 /* Supporting Files */,
+			);
+			path = WFWebImageTests;
+			sourceTree = "<group>";
+		};
+		EF028EEF1B9141AF00EF74A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF028EF01B9141AF00EF74A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF028ED11B9141AF00EF74A9 /* WFWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF028EF51B9141AF00EF74A9 /* Build configuration list for PBXNativeTarget "WFWebImage" */;
+			buildPhases = (
+				EF028ECE1B9141AF00EF74A9 /* Sources */,
+				EF028ECF1B9141AF00EF74A9 /* Frameworks */,
+				EF028ED01B9141AF00EF74A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFWebImage;
+			productName = WFWebImage;
+			productReference = EF028ED21B9141AF00EF74A9 /* WFWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF028EEA1B9141AF00EF74A9 /* WFWebImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF028EF81B9141AF00EF74A9 /* Build configuration list for PBXNativeTarget "WFWebImageTests" */;
+			buildPhases = (
+				EF028EE71B9141AF00EF74A9 /* Sources */,
+				EF028EE81B9141AF00EF74A9 /* Frameworks */,
+				EF028EE91B9141AF00EF74A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF028EED1B9141AF00EF74A9 /* PBXTargetDependency */,
+			);
+			name = WFWebImageTests;
+			productName = WFWebImageTests;
+			productReference = EF028EEB1B9141AF00EF74A9 /* WFWebImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF028ECA1B9141AF00EF74A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = feiwu;
+				TargetAttributes = {
+					EF028ED11B9141AF00EF74A9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EF028EEA1B9141AF00EF74A9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EF028ED11B9141AF00EF74A9;
+					};
+				};
+			};
+			buildConfigurationList = EF028ECD1B9141AF00EF74A9 /* Build configuration list for PBXProject "WFWebImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF028EC91B9141AF00EF74A9;
+			productRefGroup = EF028ED31B9141AF00EF74A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF028ED11B9141AF00EF74A9 /* WFWebImage */,
+				EF028EEA1B9141AF00EF74A9 /* WFWebImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF028ED01B9141AF00EF74A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF028EE11B9141AF00EF74A9 /* Main.storyboard in Resources */,
+				EF028EE61B9141AF00EF74A9 /* LaunchScreen.xib in Resources */,
+				EF028EE31B9141AF00EF74A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF028EE91B9141AF00EF74A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF028ECE1B9141AF00EF74A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF028EDE1B9141AF00EF74A9 /* ViewController.m in Sources */,
+				EF028EDB1B9141AF00EF74A9 /* AppDelegate.m in Sources */,
+				EF028ED81B9141AF00EF74A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF028EE71B9141AF00EF74A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF028EF21B9141AF00EF74A9 /* WFWebImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF028EED1B9141AF00EF74A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF028ED11B9141AF00EF74A9 /* WFWebImage */;
+			targetProxy = EF028EEC1B9141AF00EF74A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF028EDF1B9141AF00EF74A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF028EE01B9141AF00EF74A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF028EE41B9141AF00EF74A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF028EE51B9141AF00EF74A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF028EF31B9141AF00EF74A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF028EF41B9141AF00EF74A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF028EF61B9141AF00EF74A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF028EF71B9141AF00EF74A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF028EF91B9141AF00EF74A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFWebImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFWebImage.app/WFWebImage";
+			};
+			name = Debug;
+		};
+		EF028EFA1B9141AF00EF74A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFWebImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFWebImage.app/WFWebImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF028ECD1B9141AF00EF74A9 /* Build configuration list for PBXProject "WFWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF028EF31B9141AF00EF74A9 /* Debug */,
+				EF028EF41B9141AF00EF74A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF028EF51B9141AF00EF74A9 /* Build configuration list for PBXNativeTarget "WFWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF028EF61B9141AF00EF74A9 /* Debug */,
+				EF028EF71B9141AF00EF74A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF028EF81B9141AF00EF74A9 /* Build configuration list for PBXNativeTarget "WFWebImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF028EF91B9141AF00EF74A9 /* Debug */,
+				EF028EFA1B9141AF00EF74A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF028ECA1B9141AF00EF74A9 /* Project object */;
+}
