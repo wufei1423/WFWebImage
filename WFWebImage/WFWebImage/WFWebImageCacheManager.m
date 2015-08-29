@@ -87,6 +87,7 @@ static NSString * const WFWebImageKey = @"WFWebImageKey";
 - (void)saveImage:(UIImage *)image forKey:(NSString *)imageUrl
 {
     [self.imageCache setObject:image forKey:imageUrl];
+    objc_setAssociatedObject(image, &WFWebImageKey, imageUrl, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 @end
