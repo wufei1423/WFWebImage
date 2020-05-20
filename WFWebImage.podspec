@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "WFWebImage"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "WFWebImage."
 
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
 
 
-  spec.source       = { :git => "https://github.com/wufei1423/WFWebImage.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/wufei1423/WFWebImage.git", :tag => "1.0.2" }
 
 
   spec.source_files  = "WFWebImage/WFWebImage/*"
