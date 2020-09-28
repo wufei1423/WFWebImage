@@ -10,7 +10,7 @@
 		36102F0E2521C000004023BB /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36102F0C2521C000004023BB /* TestTableViewCell.m */; };
 		36102F0F2521C000004023BB /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36102F0D2521C000004023BB /* TestTableViewCell.xib */; };
 		36102F112521C031004023BB /* testMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36102F102521C031004023BB /* testMedia.xcassets */; };
-		36102F132521C104004023BB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36102F122521C104004023BB /* Storyboard.storyboard */; };
+		36102F132521C104004023BB /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36102F122521C104004023BB /* test.storyboard */; };
 		36102F152521C15B004023BB /* test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36102F142521C15B004023BB /* test.bundle */; };
 		EF028ED81B9141AF00EF74A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028ED71B9141AF00EF74A9 /* main.m */; };
 		EF028EDB1B9141AF00EF74A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF028EDA1B9141AF00EF74A9 /* AppDelegate.m */; };
@@ -42,7 +42,7 @@
 		36102F0C2521C000004023BB /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		36102F0D2521C000004023BB /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 		36102F102521C031004023BB /* testMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = testMedia.xcassets; sourceTree = "<group>"; };
-		36102F122521C104004023BB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		36102F122521C104004023BB /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 		36102F142521C15B004023BB /* test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = test.bundle; sourceTree = "<group>"; };
 		EF028ED21B9141AF00EF74A9 /* WFWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF028ED61B9141AF00EF74A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 				36102F0C2521C000004023BB /* TestTableViewCell.m */,
 				36102F0D2521C000004023BB /* TestTableViewCell.xib */,
 				36102F102521C031004023BB /* testMedia.xcassets */,
-				36102F122521C104004023BB /* Storyboard.storyboard */,
+				36102F122521C104004023BB /* test.storyboard */,
 				36102F142521C15B004023BB /* test.bundle */,
 			);
 			path = WFWebImage;
@@ -259,7 +259,7 @@
 				36102F152521C15B004023BB /* test.bundle in Resources */,
 				36102F0F2521C000004023BB /* TestTableViewCell.xib in Resources */,
 				36102F112521C031004023BB /* testMedia.xcassets in Resources */,
-				36102F132521C104004023BB /* Storyboard.storyboard in Resources */,
+				36102F132521C104004023BB /* test.storyboard in Resources */,
 				EF028EE31B9141AF00EF74A9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

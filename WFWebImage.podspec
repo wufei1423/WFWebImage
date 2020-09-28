@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'WFWebImage'
-    s.version      = '1.0.6'
+    s.version      = '1.0.7'
     s.summary      = 'WFWebImage'
     s.homepage     = 'https://github.com/wufei1423'
     s.license      = 'MIT'
