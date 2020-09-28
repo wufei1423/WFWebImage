@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'WFWebImage'
-    s.version      = '1.0.3'
+    s.version      = '1.0.4'
     s.summary      = 'WFWebImage'
     s.homepage     = 'https://github.com/wufei1423'
     s.license      = 'MIT'
@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '8.0'
     s.source       = {:git => 'https://github.com/wufei1423/WFWebImage.git', :tag => s.version}
     s.source_files = 'WFWebImage/WFWebImage/*'
+    s.resources    = "WFWebImage/WFWebImage/*.{png,jpg,gif,xcassets,bundle,xib,storyboard}"
     s.requires_arc = true
 end
